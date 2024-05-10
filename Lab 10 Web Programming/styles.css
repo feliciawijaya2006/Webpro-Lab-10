@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Untuk mengatur tombol menjadi di tengah */
+}
+
+.button-container {
+    display: inline-block;
+    /* Untuk mengatur tombol berada dalam satu baris */
+}
+
+.button {
+    width: 100px;
+    /* Mengatur lebar tombol */
+    height: 30px;
+    /* Mengatur tinggi tombol */
+    font-size: 14px;
+    /* Mengatur ukuran font */
+    margin: 0 10px;
+    /* Memberikan jarak di antara tombol */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+textarea,
+input[type="file"],
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+    /* Menambahkan sedikit jarak antara input radio dan label */
+}
+
+#submitted-values {
+    margin-top: 20px;
+}
+
+#submitted-values h3 {
+    margin-bottom: 10px;
+}
+
+#submitted-values img {
+    max-width: 100px;
+    /* Mengatur lebar maksimum gambar */
+    max-height: 100px;
+    /* Mengatur tinggi maksimum gambar */
+}
+
+#submitted-values p {
+    text-transform: capitalize;
+    /* Mengubah teks pada huruf pertama menjadi kapital */
+}
+
+.logo {
+    width: 80px;
+    /* Ukuran gambar */
+    height: auto;
+    /* Agar rasio aspek gambar tetap */
+    margin-left: 260px;
+    /* Jarak antara gambar dan teks */
+}
