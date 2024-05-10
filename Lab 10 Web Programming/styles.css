@@ -100,9 +100,30 @@ button:hover {
 
 .logo {
     width: 80px;
-    /* Ukuran gambar */
+    /* Mengatur lebar logo */
     height: auto;
-    /* Agar rasio aspek gambar tetap */
-    margin-left: 260px;
-    /* Jarak antara gambar dan teks */
+    /* Menjaga rasio aspek gambar agar tidak terdistorsi */
+    margin-left: auto;
+    /* Mengatur posisi logo di tengah */
+    margin-right: auto;
+    /* Mengatur posisi logo di tengah */
+    display: block;
+    /* Menjamin tata letak yang benar */
+}
+
+
+/* Media queries untuk mengatur ukuran logo di layar dengan lebar tertentu */
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 80%;
+        /* Mengurangi ukuran logo untuk layar kecil */
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        max-width: 60%;
+        /* Mengurangi ukuran logo lebih lanjut untuk layar yang lebih kecil */
+    }
 }
